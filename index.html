@@ -71,7 +71,7 @@
         <div class="col-sm hero-copy">
           <h1 class="display-lg-7 text-white">Download the <strong>Travel California</strong> app and explore
             California today!</h1>
-          <button type="button" class="btn btn-outline-primary text-white" id="ctaButton" >START NOW FOR FREE</button>
+          <button type="button" class="btn btn-outline-primary text-white" id="ctaButton">START NOW FOR FREE</button>
         </div>
         <div class="col-sm">
           <div class="device-container">
@@ -89,80 +89,96 @@
   <!-- Download Section -->
   <section class="download" id="download">
     <div class="container-fluid">
-      <div class="row">
-        <h2 class="section-heading">Discover what all the buzz is about!</h2>
+      <div class="row align-items-center justify-content-center">
+        <div class="col-sm-10 col-md-8 col-lg-6">
+          <h2 class="section-heading">Discover what all the buzz is about!</h2>
+        </div>
       </div>
-      <div class="row">
-        <p>Our app is available on any mobile device! Download now to get started!</p>
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-auto">
+          <p class="downloadsCopy">Our app is available on any mobile device! Download now to get started!</p>
+        </div>
       </div>
-      <div class="badges row">
-        <div class="col-lg-6">
+      <div class="badges row justify-content-center">
+        <div class="badgesLink col-sm col-md col-lg-4">
           <a href="#" class="badges-link"><img src="images/google-play-badge.png"></a>
         </div>
-        <div class="col-lg-6">
+        <div class="badgesLink col-sm col-md col-lg-4">
           <a href="#" class="badges-link"><img src="images/app-store-badge.png"></a>
         </div>
       </div>
   </section>
 
   <!-- Testimonials -->
-  <section class="testimonials ">
+  <section class="testimonials">
     <div class="container-fluid">
-      <div class="row">
-        <h3 class="testimonials-heading">What people are saying...</h3>
+      <div class="row justify-content-center">
+        <div class="col">
+          <h3 class="testimonials-heading">What people are saying...</h3>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-sm-3 col-md-7 col-lg-3">
+            <div class="testimonial-item">
+              <img src="images/testimonials-1.jpg"><br>
+              <h5 class="cardTitle">Margaret E</h5>
+              <p class="cardBody">“This is fantastic! Thanks so much guys!”</p>
+            </div>
+          </div>
+          <div class="col-sm-3 col-md-7 col-lg-3">
+            <div class="testimonial-item">
+              <img src="images/testimonials-3.jpg"><br>
+              <h5 class="cardTitle">Sarah S</h5>
+              <p class="cardBody">“Travel California is amazing. I have been using it to explore lots of super nice
+                national parks.”</p>
+            </div>
+          </div>
+          <div class="col-sm-3 col-md-7 col-lg-3">
+            <div class="testimonial-item">
+              <img src="images/testimonials-2.jpg"><br>
+              <h5 class="cardTitle">Fred W</h5>
+              <p class="cardBody bottomCard">“Thanks so much for making these free resources available to us!”</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="testimonial-item">
-            <img src="images/testimonials-1.jpg" <h5 class="cardTitle">Margaret E</h5>
-            <p class="cardBody">“This is fantastic! Thanks so much guys!”</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item">
-            <img src="images/testimonials-2.jpg" <h5 class="cardTitle">Sarah S</h5>
-            <p class="cardBody">“Travel California is amazing. I have been using it to explore lots of super nice
-              national parks.”</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item">
-            <img src="images/testimonials-3.jpg" <h5 class="cardTitle">Fred W</h5>
-            <p class="cardBody">“Thanks so much for making these free resources available to us!”</p>
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
 
   <!-- Call to Action -->
   <section class="signup-section" id="signup">
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-8">
+      <div class="row justify-content-center">
+        <div class="col-auto subCopy">
           <h2>Subscribe to receive updates!</h2>
-          <form>
-            <input placeholder="ENTER YOUR EMAIL">
-            <button>SUBSCRIBE</button>
-          </form>
         </div>
       </div>
     </div>
+    <form>
+      <div class="row justify-content-center">
+        <div class="form-row">
+          <div class="col subForm">
+            <input type="text" class="form-control" placeholder="ENTER EMAIL ADDRESS">
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-2 subButton">SUBSCRIBE</button>
+          </div>
+        </div>
+      </div>
+    </form>
   </section>
 
   <!-- Contact-->
   <section class="contact-section bg-black">
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-4">
+      <div class="row contactCards">
+        <div class="col-sm-12 col-md-4 col-lg-4">
           <div class="card">
-            <div class="card-body">
+            <div class="card-body" id="extraSpace">
               <h4 class="text-uppercase">ADDRESS</h4>
               <p>4923 Market Street, Sacramento, CA</p>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-sm-12 col-md-4 col-lg-4">
           <div class="card">
             <div class="card-body">
               <h4 class="text-uppercase">EMAIL</h4>
@@ -170,7 +186,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-sm-12 col-md-4 col-lg-4">
           <div class="card">
             <div class="card-body">
               <h4 class="text-uppercase">PHONE</h4>
@@ -178,20 +194,24 @@
             </div>
           </div>
         </div>
-        <div class="socialMedia row">
-          <a href="#twitter" class="col-md-4 fa-brands fa-twitter"></a>
-          <a href="#facebook" class="col-md-4 fa-brands fa-facebook"></a>
-          <a href="linkedin" class="col-md-4 fa-brands fa-linkedin"></a>
-        </div>
       </div>
+    </div>
+    <div class="socialMedia">
+        <a href="#twitter" class="fa-brands fa-twitter"></a>
+        <a href="#facebook" class="fa-brands fa-facebook"></a>
+        <a href="linkedin" class="fa-brands fa-linkedin"></a>
     </div>
   </section>
 
-  <footer>
+  <footer class="graybg">
     <div class="container-fluid">
-      <p>
-        Copyright &copy; Chukwudi Barrah 2023
-      </p>
+      <div class="row">
+        <div class="col">
+          <p>
+            Copyright &copy; All rights reserved 2023
+          </p>
+        </div>
+      </div>
     </div>
   </footer>
   <!-- Optional JavaScript -->
